@@ -3,7 +3,7 @@ import java.lang.reflect.Method;
 public class ReflectionBasic {
 
     public static void main(String[] args) throws Exception {
-        Class<?> clazz = Class.forName("Test");
+        Class<?> clazz = Class.forName("Test1");
         Method[] methods = clazz.getDeclaredMethods();
         for (Method method : methods) {
             System.out.println(method.getName());
